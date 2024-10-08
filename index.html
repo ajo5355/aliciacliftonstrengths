@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clifton Strengths Results</title>
+    <style>
+      body {
+        background-color: darkcyan;
+        text-align: center; /* Centers the text horizontally */
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        margin-top: 20px; /* Adds some space above the h1 */
+        color: white;
+        font-size: 2em; /* Adjusts font size for readability on smaller screens */
+      }
+      embed {
+        width: 100%; /* Make embed responsive */
+        height: auto; /* Adjust height based on width */
+        max-width: 1000px; /* Restrict max width for large screens */
+        height: 80vh; /* Set height to be 80% of viewport height */
+      }
+      /* Media query for small screens */
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 1.5em; /* Smaller heading on mobile devices */
+        }
+        body {
+          padding: 10px; /* Add padding to avoid content touching screen edges */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Clifton Strength Results for Alicia Johnson</h1>
+    <embed src="cliftonstrengths.pdf" type="application/pdf">
+  </body>
+</html>
